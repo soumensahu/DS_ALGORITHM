@@ -2,8 +2,8 @@ package linkedlist;
 
 public class Node {
 
-	Object value;
-	Node next;
+	public Object value;
+	public Node next;
 	public Node(Object value,Node next) {
 		this.value=value;
 		this.next=next;
