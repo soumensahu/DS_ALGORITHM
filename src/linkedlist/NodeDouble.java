@@ -1,9 +1,9 @@
 package linkedlist;
 
 public class NodeDouble {
-	Object value;
-	NodeDouble next;
-	NodeDouble previous;
+	public Object value;
+	public NodeDouble next;
+	public NodeDouble previous;
 	public NodeDouble(Object value, NodeDouble next, NodeDouble previous) {
 		super();
 		this.value = value;
